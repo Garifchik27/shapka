@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(87, 79, 95);
+}
+.logoIMG{
+    width: 100px;
+    height: 70px;
+    padding: 30px 30px 30px 30px;
+}
+
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgb(59, 10, 59)
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav_item{
+    padding: 0 10px;
+}
+
+.authBox{
+    background-color:white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.langSelectorWrp{
+    transform: scale(2);
+}
+
+.footer{
+    margin: 2000px 0 0 0;
+
+}
